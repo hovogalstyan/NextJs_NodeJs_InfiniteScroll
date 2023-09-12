@@ -1,0 +1,34 @@
+.photos_scroll_page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  cursor: pointer;
+
+  .photos_item {
+    width: calc(100% / 3 - 5px);
+    margin: 0.4rem 0;
+
+    figure {
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+  }
+
+  .last—scroll {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
